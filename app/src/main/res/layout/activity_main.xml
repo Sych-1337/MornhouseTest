@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/numberEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Введіть число"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/getFactButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Отримати факт" />
+
+        <Button
+            android:id="@+id/getRandomFactButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Отримати факт про випадкове число" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

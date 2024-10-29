@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Mornhousetest</string>
+    <string name="enter_number">Введіть число</string>
+    <string name="get_fact">Отримати факт</string>
+    <string name="get_random_fact">Отримати факт про випадкове число</string>
+    <string name="number">Число</string>
+    <string name="fact_preview">Прев факту</string>
+    <string name="full_fact">Повний текст факту</string>
+    <string name="back">Назад</string>
+    <string name="error_fetching_fact">Помилка отримання факту</string>
+    <string name="enter_a_number">Введіть число</string>
+</resources>
